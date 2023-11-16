@@ -12,4 +12,4 @@ Understanding the relationship between the number of ingredients in a recipe and
 
 We collected our data from food.com, a renowned online platform that offers a vast collection of user-contributed recipes. This website has become a go-to resource for both amateur and professional cooks seeking culinary inspiration, recipe instructions, and nutritional information. The significance of sourcing data from food.com lies in its large user base and the diversity of recipes it hosts, which reflect a wide array of culinary tastes and preferences.
 
-The data from food.com has divided into two seprated datasets: food_recipe and user_interactions. For the food_recipe dataset, some relevant columns to our projects are 
+The data from food.com has divided into two seprated datasets: food_recipe and user_interactions. For the food_recipe dataset, some relevant columns to our projects are *recipe name*, *recipe id*, and*number of ingredients*
