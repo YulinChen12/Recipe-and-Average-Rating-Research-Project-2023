@@ -27,3 +27,7 @@ The result dataframe is shown below(with only relevant columns display).
 
 
 ## Cleaning and EDA (Exploratory Data Analysis)
+
+The first step in starting our project is to do some data cleaning to ensure that the data in each relevant column is reasonable and accurate.
+
+> 0 Star Review
