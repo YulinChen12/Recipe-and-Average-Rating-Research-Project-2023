@@ -60,6 +60,9 @@ The Data Frame after our cleaning purpose is shown below(with only relevant colu
 
 For the univariate analysis step, we analyze the distribution of number of ingredients and the distribution of number of average ratings.
 
+
 <iframe src="assets/n_ingred.html" width=800 height=600 frameBorder=0></iframe>
+The histogram shows the visualization of number of ingredients, and it shows that most of the recipes have five to fifteen ingredients in their recipes.
 
 <iframe src="assets/average_rating.html" width=800 height=600 frameBorder=0></iframe>
+The box shows the visualization of whole set of average of rating, indicating the median is 4.85, the first quantitile is 4.5, and the third quantitile is 5.
