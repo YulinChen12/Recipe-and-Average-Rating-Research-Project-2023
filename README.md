@@ -62,7 +62,18 @@ For the univariate analysis step, we analyze the distribution of number of ingre
 
 
 <iframe src="assets/n_ingred.html" width=800 height=600 frameBorder=0></iframe>
-The histogram shows the visualization of number of ingredients, and it shows that most of the recipes have five to fifteen ingredients in their recipes.
+Distribution Shape: The distribution of recipes across the number of ingredients appears to be unimodal, with a peak around the 7 to 10 ingredient range. This suggests that most recipes contain this number of ingredients.
+
+Skewness: There is a right skew to the distribution, as the bars (bins) to the right of the peak (towards a higher number of ingredients) are smaller but extend further out, indicating that there are fewer recipes with a large number of ingredients.
+
+Outliers: There are very few recipes with a very high number of ingredients (near 30 to 35), as indicated by the single bars at the far right of the histogram.
 
 <iframe src="assets/average_rating.html" width=800 height=600 frameBorder=0></iframe>
-The box shows the visualization of whole set of average of rating, indicating the median is 4.85, the first quantitile is 4.5, and the third quantitile is 5.
+The bottom of the box represents the first quartile (Q1), which is 4.5 in this case. This means that 25% of the ratings falls below this value.
+The band inside the box is the median (the second quartile, Q2), which is 4.85. This is the midpoint of the all average rating.
+The top of the box represents the third quartile (Q3), which is 5. Therefore, 75% of the rating is below this value, and 25% is above it.
+
+Data Distribution: Given that Q3 is at the maximum of the rating scale (5), and the median is very close to the maximum (4.85), the data is left-skewed, indicating that most ratings are high, and very few are low (as also indicated by the outliers).
+
+Overall Rating Quality: The concentration of the box at the high end of the rating scale implies that the average ratings are generally very good.
+
