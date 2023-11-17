@@ -120,6 +120,7 @@ The table quantifies the complexity of recipes in terms of time and effort (numb
 Furthermore, the columns name, description, and average_rating are identified as having missing entries. This observation warrants a more nuanced approach to data analysis, as the missingness in average_rating is potentially informative and could be a factor of underlying attitudes or preferences which influence the decision to not provide a rating.
 
 > Number of Ingredients and Descriptions
+
 In our investigation into the relationship between the completeness of recipe descriptions and the number of ingredients, we employed permutation testing to determine the statistical significance of our observations. 
 Null hypothesis:**the presence of recipe descriptions is NOT dependent on the number of ingredients**
 Alternative Hypothesis: **the presence of recipe descriptions IS dependent on the number of ingredients**
