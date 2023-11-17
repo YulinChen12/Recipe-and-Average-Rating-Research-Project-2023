@@ -178,6 +178,7 @@ For The only relevant columns are average_rating,n_ingredients and Category:
 | 475785 |                5 |              13 | Simple     |
 
 Since the average_rating is numerical,we calculated the observed statistic, which is the difference in average ratings between complex and simple recipes in the data
+
 | Category   |   average_rating |   n_ingredients |
 |:-----------|-----------------:|----------------:|
 | Complex    |          4.643604  |        18.0498  |
