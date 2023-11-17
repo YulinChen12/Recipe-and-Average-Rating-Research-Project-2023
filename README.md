@@ -152,5 +152,5 @@ The investigation featured the creation of two histograms for visual data repres
 
 We applied a permutation test with 100 permutations to rigorously evaluate the null hypothesis of no dependency between preparation time and the presence of a description.
 
-The outcome of the permutation test was a p-value of 0.596. Given that this value exceeds the conventional alpha level of 0.05, we do not reject the null hypothesis. This leads us to conclude that, based on our sample data, there is no statistically significant evidence to suggest a dependency between the preparation time of a recipe and the existence of a recipe description.
+The outcome of the permutation test was a **p-value of 0.596**. Given that this value exceeds the conventional alpha level of 0.05, we do not reject the null hypothesis. This leads us to conclude that, based on our sample data, there is no statistically significant evidence to suggest a dependency between the preparation time of a recipe and the existence of a recipe description.
 
