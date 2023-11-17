@@ -113,7 +113,7 @@ The table quantifies the complexity of recipes in terms of time and effort (numb
  In relation to our hypothesis about the number of ingredients affecting ratings, this table suggests there are additional layers of complexity beyond just the number of ingredients. This makes us understand more about the relationship between recipe complexity (as measured by time, steps, and ingredient count) and user ratings by multiple predictors of ratings.
 
  ## Assessment of Missingness
- 
+
  After the data cleaning and analysis step, we will conduct the assessment of missingness in this part.
 
  ### NMAR Analysis
@@ -161,7 +161,7 @@ The outcome of the permutation test was a **p-value of 0.596**. Given that this 
 
 Finally,we go back to our rearch question: **Do people tend to give more star rating for the complex recipe than the simple recipe?**
 
-In order to answer that, we will conducta a permutation test.
+In order to answer that, we will conduct a permutation test.
 
 ### Setting Up
 Null Hypothesis: People are rating the complex ingredients recipe and simple ingreditents recipe in the same scale. Any observed association in the sample data is due to random chance.
