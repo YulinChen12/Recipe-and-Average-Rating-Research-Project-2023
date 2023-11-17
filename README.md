@@ -190,6 +190,7 @@ Our observed statistic is (4.64 - 4.62417) = **0.01943221486512492**
 
 The permutation test involved 1000 iterations, shuffling the label of the Catrgory and calculating the difference in average ratings between the newly designated 'complex' and 'simple' groups for each iteration.
 
+<iframe src="assets/permutation.html" width=800 height=600 frameBorder=0></iframe>
 
 The histogram shows the distribution of the difference in mean ratings obtained from 1000 permutation iterations. These permutations simulate the distribution of differences we might expect to see by chance when there is no actual effect.
 
@@ -198,3 +199,13 @@ The position of the observed statistic, marked by the red line, indicates that t
 ### Test Result and Conclusion
 
 We obtained a **p-value of 0.011**. Given that this p-value is below the conventional significance threshold of 0.05, we reject the null hypothesis. This suggests that the higher ratings associated with complex recipes in our sample data are unlikely to be due to random chance.
+
+The result could be reasonable by several reasons:
+
+Consumer Preferences: The study suggests that users may have a preference for recipes that are deemed more complex. This could indicate a desire for more sophisticated or varied cuisine, which users may perceive as higher quality or more exciting culinary experiences, and thus rate them more favorably.
+
+Perceived Value: Complex recipes often involve a variety of ingredients which can create a perception of greater value, both in terms of flavor and nutritional benefits. Users may reward this perceived value with higher ratings.
+
+Skill Demonstration: Home cooks and culinary enthusiasts may derive satisfaction from successfully completing more challenging recipes. Thus, the complexity of the recipe could be linked to the satisfaction of the user, leading to higher ratings.
+
+Engagement: Complex recipes may lead to higher engagement, as users who invest more time and effort may be more inclined to provide feedback in the form of ratings.
