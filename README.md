@@ -122,8 +122,10 @@ Furthermore, the columns name, description, and average_rating are identified as
 
 > Number of Ingredients and Descriptions
 
-In our investigation into the relationship between the completeness of recipe descriptions and the number of ingredients, we employed permutation testing to determine the statistical significance of our observations. 
+In our investigation into the relationship between the completeness of recipe descriptions and the number of ingredients, we employed permutation testing to determine the statistical significance of our observations.
+
 Null hypothesis:**the presence of recipe descriptions is NOT dependent on the number of ingredients**
+
 Alternative Hypothesis: **the presence of recipe descriptions IS dependent on the number of ingredients**
 
 <iframe src="assets/average_des.html" width=800 height=600 frameBorder=0></iframe>
