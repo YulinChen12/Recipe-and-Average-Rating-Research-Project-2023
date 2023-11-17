@@ -15,6 +15,7 @@ We collected our data from food.com, a renowned online platform that offers a va
 The data from food.com has divided into two seprated datasets: food_recipe and user_interactions. The food_recipe dataset contains 83782 rows,meaning we have 83782 unique recipes. Some relevant columns to our projects are *recipe name*, *recipe id*, *ingredients*, and *number of ingredients*. The user_interactions dataset contains 731927 rows,meaning we have 731927 reviews from the users. Some relevant columns to our projects are *recipe id* and *rating*. 
 
 After collecting the data,we noticed that both dataset contains the recipe id. Before investigate our project,we choose to merge the food_recipe and the user_interactions dataset by *recipe id*. In order to better correspond and find recipes, we use recipe id as the index.
+
 The merged dataframe is shown below(with some relevant columns display).
 
 |     id | name                                 | ingredients                                                                                                                                                                    |   n_ingredients |   rating |
