@@ -98,6 +98,7 @@ While the median ratings for simple and complex recipes are identical, the distr
 
 
 ## Interesting Aggregates
+
 | Category   |   minutes |   n_steps |   average_rating |
 |:-----------|----------:|----------:|-----------------:|
 | Complex    |   147.846 |  16.6411  |          4.6436  |
