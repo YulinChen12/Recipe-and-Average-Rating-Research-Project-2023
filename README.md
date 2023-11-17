@@ -48,6 +48,8 @@ So the first step in our data clean is to replace the 0 star rating of each reci
 
 After replace 0 with average star rating, we have add a new column of average_rating for each recipe for futher research purpose.
 
+The Data Frame after our cleaning purpose is shown below(with only relevant columns display)
+
 |     id | name                                 | ingredients                                                                                                                                                                    |   n_ingredients |   average_rating |
 |-------:|:-------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------:|-----------------:|
 | 333281 | 1 brownies in the world    best ever | ['bittersweet chocolate', 'unsalted butter', 'eggs', 'granulated sugar', 'unsweetened cocoa powder', 'vanilla extract', 'brewed espresso', 'kosher salt', 'all-purpose flour'] |               9 |                4 |
