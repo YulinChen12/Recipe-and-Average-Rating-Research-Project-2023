@@ -63,8 +63,6 @@ The Data Frame after our cleaning purpose is shown below(with only relevant colu
 | 308080 | zydeco ya ya deviled eggs                    | ['hard-cooked eggs', 'mayonnaise', 'dijon mustard', 'salt-free cajun seasoning', 'tabasco sauce', 'salt', 'black pepper', 'fresh italian parsley']                                                                                                                                                                                                        |               8 |                5 | Simple     |
 | 298512 | cookies by design   cookies on a stick       | ['butter', 'eagle brand condensed milk', 'light brown sugar', 'sour cream', 'egg', 'extract', 'nutmeg', 'self-rising flour', 'bisquick', 'wooden popsicle sticks']                                                                                                                                                                                        |              10 |                1 | Simple     |
 | 298509 | cookies by design   sugar shortbread cookies | ['granulated sugar', 'shortening', 'eggs', 'flour', 'cream of tartar', 'baking soda', 'vanilla extract']                                                                                                                                                                                                                                                  |               7 |                3 | Simple     |
-tegory
-
 
 ## Exploratory Data Analysis
 ### Univariate Analysis
