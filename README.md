@@ -6,7 +6,9 @@ Nov 2023
 
 ## Introduction of the Project
 
-The project delves into the fascinating intersection of culinary art and data analysis. We aim to unearth patterns and insights that are not immediately apparent. Specifically, we focuses on understanding **how the number of ingredients in a recipe might influence its users' ratings**
+The project delves into the fascinating intersection of culinary art and data analysis. We aim to unearth patterns and insights that are not immediately apparent. Specifically, we focuses on understanding **how the number of ingredients in a recipe might influence its users' ratings** 
+
+More specifically **Do people tend to give more star rating for the complex recipe than the simple recipe?**
 
 We defined the recipe with number of ingredients greater than 15 as **Complex Recipe** and recipe with number of ingredients less than or equal to 15 as **Simple Recipe**.
 
@@ -154,3 +156,31 @@ We applied a permutation test with 100 permutations to rigorously evaluate the n
 
 The outcome of the permutation test was a **p-value of 0.596**. Given that this value exceeds the conventional alpha level of 0.05, we do not reject the null hypothesis. This leads us to conclude that, based on our sample data, there is no statistically significant evidence to suggest a dependency between the preparation time of a recipe and the existence of a recipe description.
 
+## Hypothesis Testing
+
+Finally,we go back to our rearch question: **Do people tend to give more star rating for the complex recipe than the simple recipe?**
+
+In order to answer that, we will conducta a permutation test.
+
+### Setting Up
+Null Hypothesis: People are rating the complex ingredients recipe and simple ingreditents recipe in the same scale. Any observed association in the sample data is due to random chance.
+
+Alternative Hypothesis: People are giving complex ingredients recipe a higher rating. The observed association is not due to random chance.
+
+For The only relevant columns are average_rating,n_ingredients and Category:
+
+|     id |   average_rating |   n_ingredients | Category   |
+|-------:|-----------------:|----------------:|:-----------|
+| 333281 |                4 |               9 | Simple     |
+| 453467 |                5 |              11 | Simple     |
+| 306168 |                5 |               9 | Simple     |
+| 286009 |                5 |               7 | Simple     |
+| 475785 |                5 |              13 | Simple     |
+
+Since the average_rating is numerical,we calculated the observed statistic, which is the difference in average ratings between complex and simple recipes in the data
+| Category   |   average_rating |   n_ingredients |
+|:-----------|-----------------:|----------------:|
+| Complex    |          4.643604  |        18.0498  |
+| Simple     |          4.624172|         8.63113 |
+
+Our observed statistic is (4.64 - 4.62417) = **0.01943221486512492**
