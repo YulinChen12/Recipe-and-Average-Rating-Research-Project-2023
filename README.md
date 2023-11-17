@@ -129,6 +129,7 @@ Null hypothesis:**the presence of recipe descriptions is NOT dependent on the nu
 Alternative Hypothesis: **the presence of recipe descriptions IS dependent on the number of ingredients**
 
 <iframe src="assets/average_des.html" width=800 height=600 frameBorder=0></iframe>
+
 The analysis involved creating two visual histograms: the first for recipes lacking descriptions, which showed a roughly uniform distribution across the number of ingredients, and the second for recipes with descriptions, which exhibited a right-skewed distribution, where a majority of recipes had fewer ingredients.
 
 To test our hypothesis rigorously, we conducted a permutation test with 100 iterations. This non-parametric test allowed us to assess the null hypothesis of independence between the two variables without making assumptions about the distribution of our data.
