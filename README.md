@@ -108,3 +108,28 @@ The table quantifies the complexity of recipes in terms of time and effort (numb
  One interesting connection we have found is that users might rate recipes not just on the outcome but also based on their experience of cooking the meal. A complex recipe, as indicated by more minutes and steps, might be rated higher if the users enjoy the challenge or the result, or it might be rated lower if they find it too cumbersome.
 
  In relation to our hypothesis about the number of ingredients affecting ratings, this table suggests there are additional layers of complexity beyond just the number of ingredients. This makes us understand more about the relationship between recipe complexity (as measured by time, steps, and ingredient count) and user ratings by multiple predictors of ratings.
+
+ ## Assessment of Missingness
+ After the data cleaning and analysis step, we will conduct the assessment of missingness in this part.
+
+ ### NMAR Analysis
+
+ The column average_rating appears to be Not Missing At Random (NMAR), suggesting that the absence of data within this column may not be coincidental or uniformly distributed, but rather could be indicative of a pattern pertaining to the response variable itself. It is plausible to hypothesize that a lack of ratings could correlate with a negative reception of the recipe. That is, if consumers are dissatisfied or indifferent towards a recipe, they may be less inclined to leave a rating, thereby leading to missing values in the average_rating column.
+
+### Missingness Dependency Analysis
+Furthermore, the columns name, description, and average_rating are identified as having missing entries. This observation warrants a more nuanced approach to data analysis, as the missingness in average_rating is potentially informative and could be a factor of underlying attitudes or preferences which influence the decision to not provide a rating.
+
+> Number of Ingredients and Descriptions
+In our investigation into the relationship between the completeness of recipe descriptions and the number of ingredients, we employed permutation testing to determine the statistical significance of our observations. 
+Null hypothesis:**the presence of recipe descriptions is NOT dependent on the number of ingredients**
+Alternative Hypothesis: **the presence of recipe descriptions IS dependent on the number of ingredients**
+
+
+The analysis involved creating two visual histograms: the first for recipes lacking descriptions, which showed a roughly uniform distribution across the number of ingredients, and the second for recipes with descriptions, which exhibited a right-skewed distribution, where a majority of recipes had fewer ingredients.
+
+To test our hypothesis rigorously, we conducted a permutation test with 100 iterations. This non-parametric test allowed us to assess the null hypothesis of independence between the two variables without making assumptions about the distribution of our data.
+
+The permutation test yielded a **p-value of 0.002**. This result is well below the standard alpha threshold of 0.05, leading us to reject the null hypothesis and accept the alternative hypothesis. 
+
+In conclusion, our permutation-based analysis provides robust evidence that the likelihood of a recipe description being omitted is not a matter of chance but indicates there is a statistical association between them, however, it does not imply causation between these two variables.
+
