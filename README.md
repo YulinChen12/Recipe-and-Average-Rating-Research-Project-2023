@@ -8,7 +8,7 @@ Nov 2023
 
 The project delves into the fascinating intersection of culinary art and data analysis. We aim to unearth patterns and insights that are not immediately apparent. Specifically, we focuses on understanding **how the number of ingredients in a recipe might influence its users' ratings**
 
-We defined the recipe with number of ingredients greater than or equal to 15 as **Complex Recipe** and recipe with number of ingredients less than 15 as **Simple Recipe**.
+We defined the recipe with number of ingredients greater than 15 as **Complex Recipe** and recipe with number of ingredients less than or equal to 15 as **Simple Recipe**.
 
 Understanding the relationship between the number of ingredients in a recipe and its ratings is crucial for various reasons. It reveals consumer preferences, indicating whether simplicity or complexity is more valued in cooking. This insight is vital for chefs, recipe developers, and the food industry, as it guides recipe creation and menu planning, potentially influencing customer satisfaction and business success. Additionally, it offers home cooks guidance on popular recipe choices and can inform culinary education. For the health-conscious, it may also highlight trends in nutritional choices. Essentially, this analysis bridges culinary art with consumer behavior, enhancing our understanding of food preferences.
 
@@ -49,13 +49,22 @@ So the first step in our data clean is to replace the 0 star rating of each reci
 
 After replace 0 with average star rating, we have add a new column of average_rating for each recipe for futher research purpose.
 
+> Category 
+
+We also add a new column of classify each recipe into simple or complex based on their number of ingredients, to further analyze our problem.
+
+
 The Data Frame after our cleaning purpose is shown below(with only relevant columns display)
 
-|     id | name                                 | ingredients                                                                                                                                                                    |   n_ingredients |   average_rating |
-|-------:|:-------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------:|-----------------:|
-| 333281 | 1 brownies in the world    best ever | ['bittersweet chocolate', 'unsalted butter', 'eggs', 'granulated sugar', 'unsweetened cocoa powder', 'vanilla extract', 'brewed espresso', 'kosher salt', 'all-purpose flour'] |               9 |                4 |
-| 453467 | 1 in canada chocolate chip cookies   | ['white sugar', 'brown sugar', 'salt', 'margarine', 'eggs', 'vanilla', 'water', 'all-purpose flour', 'whole wheat flour', 'baking soda', 'chocolate chips']                    |              11 |                5 |
-| 306168 | 412 broccoli casserole               | ['frozen broccoli cuts', 'cream of chicken soup', 'sharp cheddar cheese', 'garlic powder', 'ground black pepper', 'salt', 'milk', 'soy sauce', 'french-fried onions']          |               9 |                5 |
+|     id | name                                         | ingredients                                                                                                                                                                                                                                                                                                                                               |   n_ingredients |   average_rating | Category   |
+|-------:|:---------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------:|-----------------:|:-----------|
+| 486161 | zydeco soup                                  | ['celery', 'onion', 'green sweet pepper', 'garlic cloves', 'olive oil', 'cooked ham', 'paprika', 'sugar', 'dry mustard', 'ground cumin', 'dried basil', 'dried oregano', 'dried thyme', 'ground cloves', 'black pepper', 'cayenne pepper', 'black-eyed peas', 'yellow hominy', 'diced tomatoes', 'low sodium chicken broth', 'fresh parsley', 'molasses'] |              22 |                5 | Complex    |
+| 493372 | zydeco spice mix                             | ['paprika', 'salt', 'garlic powder', 'onion powder', 'dried basil', 'dried oregano', 'dried tarragon', 'dried thyme', 'powdered sugar', 'black pepper', 'cayenne pepper', 'red pepper flakes', 'celery seed']                                                                                                                                             |              13 |                5 | Simple     |
+| 308080 | zydeco ya ya deviled eggs                    | ['hard-cooked eggs', 'mayonnaise', 'dijon mustard', 'salt-free cajun seasoning', 'tabasco sauce', 'salt', 'black pepper', 'fresh italian parsley']                                                                                                                                                                                                        |               8 |                5 | Simple     |
+| 298512 | cookies by design   cookies on a stick       | ['butter', 'eagle brand condensed milk', 'light brown sugar', 'sour cream', 'egg', 'extract', 'nutmeg', 'self-rising flour', 'bisquick', 'wooden popsicle sticks']                                                                                                                                                                                        |              10 |                1 | Simple     |
+| 298509 | cookies by design   sugar shortbread cookies | ['granulated sugar', 'shortening', 'eggs', 'flour', 'cream of tartar', 'baking soda', 'vanilla extract']                                                                                                                                                                                                                                                  |               7 |                3 | Simple     |
+tegory
+
 
 ## Exploratory Data Analysis
 ### Univariate Analysis
