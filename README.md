@@ -124,9 +124,9 @@ Furthermore, the columns name, description, and average_rating are identified as
 
 In our investigation into the relationship between the completeness of recipe descriptions and the number of ingredients, we employed permutation testing to determine the statistical significance of our observations.
 
-Null hypothesis:**the presence of recipe descriptions is NOT dependent on the number of ingredients**
+Null hypothesis: **The number of ingredients is NOT dependent on the presence of recipe descriptions**
 
-Alternative Hypothesis: **the presence of recipe descriptions IS dependent on the number of ingredients**
+Alternative Hypothesis: **The number of ingredients IS dependent on the presence of recipe descriptions**
 
 <iframe src="assets/average_des.html" width=800 height=600 frameBorder=0></iframe>
 
@@ -137,4 +137,20 @@ To test our hypothesis rigorously, we conducted a permutation test with 100 iter
 The permutation test yielded a **p-value of 0.002**. This result is well below the standard alpha threshold of 0.05, leading us to reject the null hypothesis and accept the alternative hypothesis. 
 
 In conclusion, our permutation-based analysis provides robust evidence that the likelihood of a recipe description being omitted is not a matter of chance but indicates there is a statistical association between them, however, it does not imply causation between these two variables.
+
+> Minutes of the Recipe and Descriptions
+
+In our analysis focusing on the relationship between the duration of recipe preparation (denoted in minutes) and the presence of recipe descriptions, we utilized permutation testing to ascertain the statistical significance of our findings.
+
+Null hypothesis: **The preparation time (minutes) is NOT dependent on the presence of recipe descriptions**.
+
+Alternative Hypothesis: **The preparation time (minutes) IS dependent on the presence of recipe descriptions**.
+
+<iframe src="assets/mins_des.html" width=800 height=600 frameBorder=0></iframe>
+
+The investigation featured the creation of two histograms for visual data representation. The first histogram depicted the distribution of preparation times for recipes without descriptions, which did not display any particular pattern and appeared relatively flat. Conversely, the second histogram for recipes with descriptions also did not suggest a distinctive distribution, and also appeared relatively flat
+
+We applied a permutation test with 100 permutations to rigorously evaluate the null hypothesis of no dependency between preparation time and the presence of a description.
+
+The outcome of the permutation test was a p-value of 0.596. Given that this value exceeds the conventional alpha level of 0.05, we do not reject the null hypothesis. This leads us to conclude that, based on our sample data, there is no statistically significant evidence to suggest a dependency between the preparation time of a recipe and the existence of a recipe description.
 
