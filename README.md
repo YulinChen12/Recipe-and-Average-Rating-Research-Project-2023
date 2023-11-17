@@ -8,7 +8,7 @@ Nov 2023
 
 The project delves into the fascinating intersection of culinary art and data analysis. We aim to unearth patterns and insights that are not immediately apparent. Specifically, we focuses on understanding **how the number of ingredients in a recipe might influence its users' ratings**
 
-We defined the recipe with number of ingredients greater than or equal to 15 as *Complex Recipe* and recipe with number of ingredients less than 15 as *Simple Recipe*.**
+We defined the recipe with number of ingredients greater than or equal to 15 as **Complex Recipe** and recipe with number of ingredients less than 15 as **Simple Recipe**.
 
 Understanding the relationship between the number of ingredients in a recipe and its ratings is crucial for various reasons. It reveals consumer preferences, indicating whether simplicity or complexity is more valued in cooking. This insight is vital for chefs, recipe developers, and the food industry, as it guides recipe creation and menu planning, potentially influencing customer satisfaction and business success. Additionally, it offers home cooks guidance on popular recipe choices and can inform culinary education. For the health-conscious, it may also highlight trends in nutritional choices. Essentially, this analysis bridges culinary art with consumer behavior, enhancing our understanding of food preferences.
 
