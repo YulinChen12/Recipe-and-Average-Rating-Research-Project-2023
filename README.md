@@ -185,3 +185,16 @@ Since the average_rating is numerical,we calculated the observed statistic, whic
 | Simple     |          4.624172|         8.63113 |
 
 Our observed statistic is (4.64 - 4.62417) = **0.01943221486512492**
+
+### Permutation Test 
+
+The permutation test involved 1000 iterations, shuffling the label of the Catrgory and calculating the difference in average ratings between the newly designated 'complex' and 'simple' groups for each iteration.
+
+
+The histogram shows the distribution of the difference in mean ratings obtained from 1000 permutation iterations. These permutations simulate the distribution of differences we might expect to see by chance when there is no actual effect.
+
+The position of the observed statistic, marked by the red line, indicates that the observed difference in mean ratings is greater than most of the differences obtained by chance through permutation. This suggests that the observed effect is not common in the null distribution.
+
+### Test Result and Conclusion
+
+We obtained a **p-value of 0.011**. Given that this p-value is below the conventional significance threshold of 0.05, we reject the null hypothesis. This suggests that the higher ratings associated with complex recipes in our sample data are unlikely to be due to random chance.
