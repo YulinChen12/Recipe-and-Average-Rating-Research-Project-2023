@@ -25,7 +25,7 @@ The merged dataframe is shown below(with some relevant columns display).
 | 306168 | 412 broccoli casserole               | ['frozen broccoli cuts', 'cream of chicken soup', 'sharp cheddar cheese', 'garlic powder', 'ground black pepper', 'salt', 'milk', 'soy sauce', 'french-fried onions']          |               9 |        5 |
 
 
-## Cleaning and EDA (Exploratory Data Analysis)
+## Cleaning and EDA
 
 The first step in starting our project is to do some data cleaning to ensure that the data in each relevant column is reasonable and accurate.
 
@@ -54,3 +54,6 @@ The Data Frame after our cleaning purpose is shown below(with only relevant colu
 | 333281 | 1 brownies in the world    best ever | ['bittersweet chocolate', 'unsalted butter', 'eggs', 'granulated sugar', 'unsweetened cocoa powder', 'vanilla extract', 'brewed espresso', 'kosher salt', 'all-purpose flour'] |               9 |                4 |
 | 453467 | 1 in canada chocolate chip cookies   | ['white sugar', 'brown sugar', 'salt', 'margarine', 'eggs', 'vanilla', 'water', 'all-purpose flour', 'whole wheat flour', 'baking soda', 'chocolate chips']                    |              11 |                5 |
 | 306168 | 412 broccoli casserole               | ['frozen broccoli cuts', 'cream of chicken soup', 'sharp cheddar cheese', 'garlic powder', 'ground black pepper', 'salt', 'milk', 'soy sauce', 'french-fried onions']          |               9 |                5 |
+
+## Exploratory Data Analysis
+### Univariate Analysis
