@@ -6,7 +6,7 @@ Nov 2023
 
 ## Introduction of the Project
 
-The project delves into the fascinating intersection of culinary art and data analysis. We aim to unearth patterns and insights that are not immediately apparent. Specifically, we focuses on understanding **how the number of ingredients in a recipe might influence its users' ratings**. 
+The project delves into the fascinating intersection of culinary art and data analysis. We aim to unearth patterns and insights that are not immediately apparent. Specifically, we focuses on understanding **how the number of ingredients in a recipe might influence its users' ratings** and **We defined the recipe with number of ingredients greater than or equal to 15 as *Complex Recipe* and recipe with number of ingredients less than 15 ingredients as *Simple Recipe*.**
 
 Understanding the relationship between the number of ingredients in a recipe and its ratings is crucial for various reasons. It reveals consumer preferences, indicating whether simplicity or complexity is more valued in cooking. This insight is vital for chefs, recipe developers, and the food industry, as it guides recipe creation and menu planning, potentially influencing customer satisfaction and business success. Additionally, it offers home cooks guidance on popular recipe choices and can inform culinary education. For the health-conscious, it may also highlight trends in nutritional choices. Essentially, this analysis bridges culinary art with consumer behavior, enhancing our understanding of food preferences.
 
@@ -77,3 +77,5 @@ Data Distribution: Given that Q3 is at the maximum of the rating scale (5), and 
 
 Overall Rating Quality: The concentration of the box at the high end of the rating scale implies that the average ratings are generally very good.
 
+## Bivariate Analysis 
+Then, we will perform bivariate analysis between the complex and simple recipes 
