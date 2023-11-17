@@ -95,3 +95,16 @@ While the median ratings for simple and complex recipes are identical, the distr
 
 
 <iframe src="assets/line.html" width=800 height=600 frameBorder=0></iframe>
+
+
+## Interesting Aggregates
+| Category   |   minutes |   n_steps |   average_rating |
+|:-----------|----------:|----------:|-----------------:|
+| Complex    |   147.846 |  16.6411  |          4.6436  |
+| Simple     |   112.866 |   9.67429 |          4.62417 |
+
+The table quantifies the complexity of recipes in terms of time and effort (number of steps). This suggests that complex recipes take more time and more steps to complete than simple recipes.
+
+ One interesting connection we have found is that users might rate recipes not just on the outcome but also based on their experience of cooking the meal. A complex recipe, as indicated by more minutes and steps, might be rated higher if the users enjoy the challenge or the result, or it might be rated lower if they find it too cumbersome.
+
+ In relation to our hypothesis about the number of ingredients affecting ratings, this table suggests there are additional layers of complexity beyond just the number of ingredients. This makes us understand more about the relationship between recipe complexity (as measured by time, steps, and ingredient count) and user ratings by multiple predictors of ratings.
