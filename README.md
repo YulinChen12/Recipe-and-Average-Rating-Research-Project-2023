@@ -61,3 +61,5 @@ The Data Frame after our cleaning purpose is shown below(with only relevant colu
 For the univariate analysis step, we analyze the distribution of number of ingredients and the distribution of number of average ratings.
 
 <iframe src="assets/n_ingred.html" width=800 height=600 frameBorder=0></iframe>
+
+<iframe src="assets/average_rating.html" width=800 height=600 frameBorder=0></iframe>
