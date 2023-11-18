@@ -96,7 +96,6 @@ Then, we will perform bivariate analysis between the complex and simple recipes
 While the median ratings for simple and complex recipes are identical, the distribution of the ratings is not the same. Complex recipes show greater variability in ratings with more lower outliers, whereas simple recipes show a tighter clustering of ratings around the median with fewer outliers. This could suggest that while both types of recipes can achieve a median level of satisfaction, simple recipes tend to do so more consistently, whereas complex recipes have a greater risk of receiving lower ratings.
 
 
-<iframe src="assets/line.html" width=800 height=600 frameBorder=0></iframe>
 
 
 ## Interesting Aggregates
