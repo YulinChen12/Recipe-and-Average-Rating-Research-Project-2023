@@ -193,7 +193,7 @@ Our observed statistic is (4.64 - 4.62417) = **0.01943221486512492**
 
 ### Permutation Test 
 
-The permutation test involved 1000 iterations, shuffling the label of the Catrgory and calculating the difference in average ratings between the newly designated 'complex' and 'simple' groups for each iteration.
+The permutation test involved 1000 iterations, shuffling the label of the Category and calculating the difference in average ratings between the newly designated 'complex' and 'simple' groups for each iteration.
 
 <iframe src="assets/permutation.html" width=800 height=600 frameBorder=0></iframe>
 
@@ -203,7 +203,7 @@ The position of the observed statistic, marked by the red line, indicates that t
 
 ### Test Result and Conclusion
 
-We obtained a **p-value of 0.011**. Given that this p-value is below the conventional significance threshold of 0.05, we reject the null hypothesis. This suggests that the higher ratings associated with complex recipes in our sample data are unlikely to be due to random chance.
+Our test results lead us to several possible explanations for why complex recipes receive higher ratings: We obtained a **p-value of 0.011**. Given that this p-value is below the conventional significance threshold of 0.05, we reject the null hypothesis. This suggests that the higher ratings associated with complex recipes in our sample data are unlikely to be due to random chance.
 
 The result could be reasonable by several reasons:
 
