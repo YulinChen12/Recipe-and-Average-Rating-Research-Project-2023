@@ -88,7 +88,7 @@ Data Distribution: Given that Q3 is at the maximum of the rating scale (5), and 
 
 Overall Rating Quality: The concentration of the box at the high end of the rating scale implies that the average ratings are generally very good.
 
-## Bivariate Analysis 
+### Bivariate Analysis 
 Then, we will perform bivariate analysis between the complex and simple recipes 
 
 <iframe src="assets/compare.html" width=800 height=600 frameBorder=0></iframe>
@@ -99,7 +99,7 @@ While the median ratings for simple and complex recipes are identical, the distr
 <iframe src="assets/line.html" width=800 height=600 frameBorder=0></iframe>
 
 
-## Interesting Aggregates
+### Interesting Aggregates
 
 | Category   |   minutes |   n_steps |   average_rating |
 |:-----------|----------:|----------:|-----------------:|
@@ -151,7 +151,9 @@ Null hypothesis: **The preparation time (minutes) is NOT dependent on the presen
 
 Alternative Hypothesis: **The preparation time (minutes) IS dependent on the presence of recipe descriptions**.
 
-<iframe src="assets/mins_des.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="assets/minutes1.html" width=800 height=600 frameBorder=0></iframe>
+
+<iframe src="assets/minutes2.html" width=800 height=600 frameBorder=0></iframe>
 
 The investigation featured the creation of two histograms for visual data representation. The first histogram depicted the distribution of preparation times for recipes without descriptions, which did not display any particular pattern and appeared relatively flat. Conversely, the second histogram for recipes with descriptions also did not suggest a distinctive distribution, and also appeared relatively flat
 
