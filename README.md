@@ -98,6 +98,8 @@ While the median ratings for simple and complex recipes are identical, the distr
 
 <iframe src="assets/line.html" width=800 height=600 frameBorder=0></iframe>
 
+There is a noticeable variation in average ratings as the number of ingredients increases. Particularly, recipes with a greater number of ingredients exhibit sharp increases and decreases in average ratings.
+Between 10 to 30 ingredients, there are significant fluctuations in the average rating, with notable peaks around 15, 25, and just over 30 ingredients. These peaks could suggest that certain recipes with a specific range of ingredients are particularly well-received. From a practical standpoint, this graph helps us understand which types of recipes are most appealing based on the number of ingredients. 
 
 ### Interesting Aggregates
 
