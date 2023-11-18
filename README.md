@@ -112,12 +112,12 @@ The table quantifies the complexity of recipes in terms of time and effort (numb
 
  In relation to our hypothesis about the number of ingredients affecting ratings, this table suggests there are additional layers of complexity beyond just the number of ingredients. This makes us understand more about the relationship between recipe complexity (as measured by time, steps, and ingredient count) and user ratings by multiple predictors of ratings.
 
-
  ## Assessment of Missingness
+
  After the data cleaning and analysis step, we will conduct the assessment of missingness in this part.
 
-
  ### NMAR Analysis
+
  The column average_rating appears to be Not Missing At Random (NMAR), suggesting that the absence of data within this column may not be coincidental or uniformly distributed, but rather could be indicative of a pattern pertaining to the response variable itself. It is plausible to hypothesize that a lack of ratings could correlate with a negative reception of the recipe. That is, if consumers are dissatisfied or indifferent towards a recipe, they may be less inclined to leave a rating, thereby leading to missing values in the average_rating column.
 
 ### Missingness Dependency Analysis
@@ -153,7 +153,7 @@ Alternative Hypothesis: **The preparation time (minutes) IS dependent on the pre
 
 <iframe src="assets/minutes2.html" width=800 height=600 frameBorder=0></iframe>
 
-The investigation featured the creation of two histograms for visual data representation. The first histogram depicted the distribution of preparation times for recipes without descriptions, which did not display any particular pattern and appeared relatively flat. Conversely, the second histogram for recipes with descriptions also did not suggest a distinctive distribution, and also appeared relatively flat
+The investigation featured the creation of two histograms for visual data representation. The first histogram depicted the distribution of preparation times for recipes without descriptions, which did not display any particular pattern and appeared likely on the left . Conversely, the second histogram for recipes with descriptions also did not suggest a distinctive distribution, and also appeared on the left.
 
 We applied a permutation test with 100 permutations to rigorously evaluate the null hypothesis of no dependency between preparation time and the presence of a description.
 
