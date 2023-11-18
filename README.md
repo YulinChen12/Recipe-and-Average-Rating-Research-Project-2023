@@ -115,9 +115,8 @@ The table quantifies the complexity of recipes in terms of time and effort (numb
  In relation to our hypothesis about the number of ingredients affecting ratings, this table suggests there are additional layers of complexity beyond just the number of ingredients. This makes us understand more about the relationship between recipe complexity (as measured by time, steps, and ingredient count) and user ratings by multiple predictors of ratings.
 
  ## Assessment of Missingness
- 
- After the data cleaning and analysis step, we will conduct the assessment of missingness in this part.
 
+ After the data cleaning and analysis step, we will conduct the assessment of missingness in this part.
 
  ### NMAR Analysis
 
