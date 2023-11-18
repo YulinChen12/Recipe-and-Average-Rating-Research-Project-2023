@@ -6,9 +6,9 @@ Nov 2023
 
 ## Introduction of the Project
 
-The project delves into the fascinating intersection of culinary art and data analysis. We aim to unearth patterns and insights that are not immediately apparent. Specifically, we focuses on understanding **how the number of ingredients in a recipe might influence its users' ratings** 
+The project delves into the fascinating intersection of culinary art and data analysis. We aim to unearth patterns and insights that are not immediately apparent. Specifically, we focus on understanding **how the number of ingredients in a recipe might influence its users' ratings** 
 
-More specifically **Do people tend to give more star rating for the complex recipe than the simple recipe?**
+More specifically, **Do people tend to give higher star rating for the complex recipe than the simple recipe?**
 
 We defined the recipe with number of ingredients greater than 15 as **Complex Recipe** and recipe with number of ingredients less than or equal to 15 as **Simple Recipe**.
 
@@ -16,9 +16,9 @@ Understanding the relationship between the number of ingredients in a recipe and
 
 We collected our data from food.com, a renowned online platform that offers a vast collection of user-contributed recipes. This website has become a go-to resource for both amateur and professional cooks seeking culinary inspiration, recipe instructions, and nutritional information. The significance of sourcing data from food.com lies in its large user base and the diversity of recipes it hosts, which reflect a wide array of culinary tastes and preferences.
 
-The data from food.com has divided into two seprated datasets: food_recipe and user_interactions. The food_recipe dataset contains 83782 rows,meaning we have 83782 unique recipes. Some relevant columns to our projects are *recipe name*, *recipe id*, *ingredients*, and *number of ingredients*. The user_interactions dataset contains 731927 rows,meaning we have 731927 reviews from the users. Some relevant columns to our projects are *recipe id* and *rating*. 
+The data from food.com is divided into two separated datasets: food_recipe and user_interactions. The food_recipe dataset contains 83782 rows,meaning we have 83782 unique recipes. Some relevant columns to our projects are *recipe name*, *recipe id*, *ingredients*, and *number of ingredients*. The user_interactions dataset contains 731927 rows,meaning we have 731927 reviews from the users. Some relevant columns to our projects are *recipe id* and *rating*. 
 
-After collecting the data,we noticed that both dataset contains the recipe id. Before investigate our project,we choose to merge the food_recipe and the user_interactions dataset by *recipe id*. In order to better correspond and find recipes, we use recipe id as the index.
+After collecting the data,we noticed that both dataset contains the recipe id. Before to investigate our project, we choose to merge the food_recipe and the user_interactions dataset by *recipe id*. In order to better correspond and find recipes, we used recipe id as the index.
 
 The merged dataframe is shown below(with some relevant columns display).
 
