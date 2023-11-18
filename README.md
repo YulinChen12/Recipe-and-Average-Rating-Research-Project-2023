@@ -96,6 +96,7 @@ Then, we will perform bivariate analysis between the complex and simple recipes
 While the median ratings for simple and complex recipes are identical, the distribution of the ratings is not the same. Complex recipes show greater variability in ratings with more lower outliers, whereas simple recipes show a tighter clustering of ratings around the median with fewer outliers. This could suggest that while both types of recipes can achieve a median level of satisfaction, simple recipes tend to do so more consistently, whereas complex recipes have a greater risk of receiving lower ratings.
 
 
+<iframe src="assets/line.html" width=800 height=600 frameBorder=0></iframe>
 
 
 ## Interesting Aggregates
@@ -111,9 +112,11 @@ The table quantifies the complexity of recipes in terms of time and effort (numb
 
  In relation to our hypothesis about the number of ingredients affecting ratings, this table suggests there are additional layers of complexity beyond just the number of ingredients. This makes us understand more about the relationship between recipe complexity (as measured by time, steps, and ingredient count) and user ratings by multiple predictors of ratings.
 
+
  ## Assessment of Missingness
 
  After the data cleaning and analysis step, we will conduct the assessment of missingness in this part.
+
 
  ### NMAR Analysis
 
