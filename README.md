@@ -114,12 +114,10 @@ The table quantifies the complexity of recipes in terms of time and effort (numb
 
 
  ## Assessment of Missingness
-
  After the data cleaning and analysis step, we will conduct the assessment of missingness in this part.
 
 
  ### NMAR Analysis
-
  The column average_rating appears to be Not Missing At Random (NMAR), suggesting that the absence of data within this column may not be coincidental or uniformly distributed, but rather could be indicative of a pattern pertaining to the response variable itself. It is plausible to hypothesize that a lack of ratings could correlate with a negative reception of the recipe. That is, if consumers are dissatisfied or indifferent towards a recipe, they may be less inclined to leave a rating, thereby leading to missing values in the average_rating column.
 
 ### Missingness Dependency Analysis
