@@ -1,4 +1,4 @@
-# Data-Driven-Culinary-Ratings-Study-2023
+# Data Insight: Recipe Complexity and User Ratings-2023
 
 By Yulin Chen & Jiarui Zha  
 
