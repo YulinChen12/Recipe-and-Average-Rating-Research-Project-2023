@@ -1,4 +1,4 @@
-# Recipe-and-Average-Rating-Research-Project-2023
+# Data-Driven-Culinary-Ratings-Study-2023
 
 By Yulin Chen & Jiarui Zha  
 
